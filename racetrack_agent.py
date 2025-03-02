@@ -8,7 +8,7 @@ class RacetrackAgent:
     Optimized Q-learning agent with an epsilon-greedy exploration strategy.
     """
 
-    def __init__(self, alpha=0.3, gamma=0.9, epsilon=0.5, mini_epsilon=0.05, decay=0.9999):
+    def __init__(self, alpha=0.3, gamma=0.9, epsilon=0.5, mini_epsilon=0.05, decay=0.995):
         """
         Initializes the BaseAgent.
 
